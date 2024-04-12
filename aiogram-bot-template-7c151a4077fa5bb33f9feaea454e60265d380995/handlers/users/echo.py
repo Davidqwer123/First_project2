@@ -18,5 +18,6 @@ import loader
 async def bot_echo(message: types.Message):
     await message.answer("Привіт!\nВітаю вас в телеграм боті де ви можете підібрати під себе путівку за кордон\nДля почаку зареєструйтесь ", reply_markup=user)
 
+print('hello')
 
 
